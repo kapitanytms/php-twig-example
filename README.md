@@ -12,3 +12,8 @@ composer require "twig/twig:^2.0"
 You have to donwload php (i use windows -> http://windows.php.net/download#php-7.2 , VC15 x64 Non Thread Safe ) and then composer (https://getcomposer.org/download/)
 
 If everything succeeded, this must work -> http://localhost/php-twig-example
+
+# The official documentation
+https://twig.symfony.com/doc/2.x/intro.html
+
+Good Luck! :) 
