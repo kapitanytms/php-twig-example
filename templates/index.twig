@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Twig Example</title>
+</head>
+<body>
+    <h1>Hello {{ title | upper }}!</h1>
+    <ul>
+        {# {% ... %} = is used to execute statements #}
+        {% for user in users %}
+        {# prints out the value of the expression #}
+            <li>
+                <h2>{{ user.name }}</h2>
+                <p>{{ user.age }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+
+    {{ num | abs }}
+</body>
+</html>
